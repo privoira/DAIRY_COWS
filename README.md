@@ -1,9 +1,15 @@
 # ISTRUZIONI PER L'INSTALLAZIONE DEL PROGRAMMA <alimenti.py>
+
 ~$ cd Scaricati/
+
 ~/Scaricati$ file ALIMENTI.tar.gz 
+
 ALIMENTI.tar.gz: gzip compressed data, from Unix, original size modulo 2^32 102400
+
 # ATTENZIONE! La seconda riga riporta l'output del comando
+
 ~/Scaricati$ tar -xvzf ALIMENTI.tar.gz 
+
 ALIMENTI/
 ALIMENTI/Leguminosa.py
 ALIMENTI/Foraggio.py
@@ -13,12 +19,19 @@ ALIMENTI/Fonte_di_fibra.py
 ALIMENTI/Cereale.py
 ALIMENTI/importa_fieno_prato_stabile_primo_taglio.py
 ALIMENTI/alimenti.py
+
 # come sopra: il comando si trova nella prima riga (dopo il simbolo del dollaro, CHE NON DEVE ESSERE INSERITO)
+
 ~/Scaricati$ cd ALIMENTI/
+
 ~/Scaricati/ALIMENTI$ pwd
+
 /home/piero/Scaricati/ALIMENTI
+
 # l'output del comando <pwd> è il nome della directory in cui ci troviamo
+
 ~/Scaricati/ALIMENTI$ python3 alimenti.py
+
 # per eseguire il programma <alimenti.py>
 
 
